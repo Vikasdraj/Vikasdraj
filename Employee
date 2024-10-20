@@ -1,0 +1,15 @@
+class Employee 
+{
+	    static int employee_id;
+		static String employee_name;
+		static long phone_number;
+	    public static void main(String[] args) 
+	{
+		 employee_id=15321;
+		 employee_name="Ronny";
+		 phone_number=1637935672l;
+		System.out.println("The employee_id is" + "  " +employee_id);
+		System.out.println("The employee_name is" + " " +employee_name);
+		System.out.println("The phone_number is" + " " +phone_number);
+	}
+}
